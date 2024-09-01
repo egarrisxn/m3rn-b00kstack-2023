@@ -7,7 +7,7 @@ import { dirname } from "path";
 import books from "./routes/books.js";
 import users from "./routes/users.js";
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 5050;
 
 const app = express();
 
