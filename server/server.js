@@ -1,14 +1,11 @@
 import express from "express";
 import cors from "cors";
-import path from "path";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
-
+import path, { dirname } from "path";
 import books from "./routes/books.js";
 import users from "./routes/users.js";
 
 const PORT = process.env.PORT || 10000;
-
 const app = express();
 
 // Fix for __dirname in ES modules
