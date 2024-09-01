@@ -14,9 +14,10 @@
     "preview": "cd client && pnpm run preview",
     "lint": "cd client && pnpm run lint",
     "server": "cd server && node --env-file=config.env server.js",
+    "server:production": "cd server && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"pnpm run server\" \"pnpm run client\"",
-    "start": "pnpm run build && pnpm run server"
+    "start": "pnpm run build && pnpm run server:production"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
