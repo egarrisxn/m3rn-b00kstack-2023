@@ -1,0 +1,30 @@
+{
+  "name": "m3rn-b00k-stack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server/server.js",
+  "engines": {
+    "node": "20.x",
+    "pnpm": "9.x"
+  },
+  "scripts": {
+    "client": "cd client && pnpm run dev",
+    "client:build": "cd client && pnpm run build",
+    "client:preview": "cd client && pnpm run preview",
+    "client:lint": "cd client && pnpm run lint",
+    "server": "cd server && node --env-file=config.env server.js",
+    "server:test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"pnpm run server\" \"pnpm run client\""
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

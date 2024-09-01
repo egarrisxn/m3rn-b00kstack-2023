@@ -1,0 +1,32 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules (if you use monorepo structure)
+node_modules/
+
+# Environment files (general)
+.env
+.env.*
+config.env
+
+# Build outputs
+dist/
+dist-ssr/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Others
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
