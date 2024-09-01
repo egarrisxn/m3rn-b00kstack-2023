@@ -17,8 +17,8 @@ const __dirname = dirname(__filename);
 
 // Define allowed origins for CORS
 const allowedOrigins = [
+  "https://m3rn-b00k-stack.onrender.com",
   "http://localhost:5173",
-  "https://m3rnb00kstack.onrender.com",
 ];
 
 // Middleware setup
