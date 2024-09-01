@@ -14,6 +14,7 @@
     "preview": "cd client && pnpm run preview",
     "lint": "cd client && pnpm run lint",
     "server": "cd server && node --env-file=config.env server.js",
+    "start": "cd server && node --env-file=config.env server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"pnpm run server\" \"pnpm run client\""
   },
