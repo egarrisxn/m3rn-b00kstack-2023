@@ -1,6 +1,6 @@
-# m3rn-b00k-stack-2023
+# m3rn-b00kstack-2023
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/m3rn-b00k-stack-2023) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/m3rn-b00k-stack-2023)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/m3rn-b00kstack-2023) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/m3rn-b00kstack-2023)
 
 _Initially created in the spring of 2023 for my UCF Full-Stack Web Development Bootcamp._
 
